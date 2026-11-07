@@ -1,7 +1,11 @@
 {
-    "MAE": 0.762280211257308,
-    "RMSE": 0.9810832683533672,
-    "R2": 0.34947718488490975,
-    "training_samples": 6345,
-    "testing_samples": 1655
+    "MAE_C": 0.5008083440272815,
+    "RMSE_C": 0.6605483095398764,
+    "R2": 0.6109072857783702,
+    "training_samples": 10433,
+    "testing_samples": 2781,
+    "training_spatial_blocks": 97,
+    "testing_spatial_blocks": 25,
+    "validation": "single GroupShuffleSplit spatial holdout",
+    "target": "multi-year March-April median Landsat LST (surface temperature)"
 }
